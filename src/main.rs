@@ -38,72 +38,173 @@ fn Home() -> Element {
     let mut count = use_signal(|| 0);
     rsx! {
             link{rel:"stylesheet",href:"bulma.css"}
-
-            nav { class: "navbar is-transparent",
-                div { class: "navbar-brand",
-                    a { href: "https://www.watermonkey.org", class: "navbar-item",
-                        img { src: "logo.png" }
-                        b { "WATERMONKEY" }
-                    }
-                    div {
-                        "data-target": "navbarExampleTransparentExample",
-                        class: "navbar-burger js-burger",
-                        span {}
-                        span {}
-                        span {}
-                        span {}
-                    }
+            link{rel:"stylesheet",href:"website.min.css"}
+            main { class: "bd-docs is-fullwidth is-active", id: "js-docs",
+                button {
+                    "data-target": "js-docs",
+                    class: "button bd-docs-button js-toggle is-active",
+                    id: "js-menu-toggle",
+                    i { class: "fas fa-arrow-right-from-bracket" }
                 }
-                div { class: "navbar-menu", id: "navbarExampleTransparentExample",
-                    div { class: "navbar-start",
-                        a { href: "https://www.watermonkey.org/", class: "navbar-item", " Home " }
-                    }
-                    div { class: "navbar-end",
-                        div { class: "navbar-item",
-                            div { class: "field is-grouped",
-                                p { class: "control",
-                                    a {
-                                        "data-social-network": "Twitter",
-                                        "data-social-action": "tweet",
-                                        href: "https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms",
-                                        "data-social-target": "https://bulma.io",
-                                        target: "_blank",
-                                        class: "bd-tw-button button",
-                                        span { class: "icon",
-                                            i { class: "fab fa-twitter" }
-                                        }
-                                        span { " GITHUB " }
-                                    }
+                div { class: "bd-docs-menu",
+                    div { class: "bd-menu",
+                        div { class: "bd-menu-section is-start",
+                            h3 { class: "bd-menu-heading js-menu-heading",
+                                span { class: "icon",
+                                    i { class: "fas fa-arrow-right" }
                                 }
-                                p { class: "control",
+                                strong { "Start Here" }
+                            }
+                            ul {
+                                style: "--size: 7",
+                                class: "bd-menu-list js-menu-list",
+                                li {
                                     a {
-                                        href: "https://github.com/jgthms/bulma/releases/download/1.0.2/bulma-1.0.2.zip",
-                                        class: "button is-primary",
-                                        span { class: "icon",
-                                            i { class: "fas fa-download" }
-                                        }
-                                        span { "DOWNLOAD" }
+                                        "data-current-link-id": "components-navbar",
+                                        href: "https://bulma.io/documentation/start/migrating-to-v1/",
+                                        "data-size": "0",
+                                        "data-name": "Migrating to v1",
+                                        class: "bd-menu-link",
+                                        span { class: "bd-menu-link-name", "Migrating to v1" }
                                     }
                                 }
                             }
                         }
                     }
+                    div { class: "bd-side-sponsrs",
+                        p { class: "bd-side-sponsor-label", "Sponsor" }
+                        a {
+                            href: "https://www.route4me.com/",
+                            target: "_blank",
+                            class: "bd-side-sponsor",
+                            img {
+                                src: "https://bulma.io/assets/images/amis/route4me.png",
+                                width: "224",
+                                alt: "Route Planner and Route Optimizer",
+                                srcset: "https://bulma.io/assets/images/amis/route4me.png 1x,\n          https://bulma.io/assets/images/amis/route4me@2x.png 2x",
+                                height: "57"
+                            }
+                        }
+                    }
+                }
+                div { class: "bd-docs-lead bd-theme-library",
+                    nav { "aria-label": "breadcrumbs", class: "breadcrumb is-right",
+                        ul {
+                            li {
+                                a { href: "#", "Bulma" }
+                            }
+                            li {
+                                a { href: "#", "Documentation" }
+                            }
+                            li {
+                                a { href: "#", "Components" }
+                            }
+                            li { class: "is-active",
+                                a { href: "#", "aria-current": "page", "Breadcrumb" }
+                            }
+                        }
+                    }
+                    // div { class: "container ",
+                        table { class: "table",
+                            thead {
+                                tr {
+                                    th {
+                                        abbr { title: "Position", "Pos" }
+                                    }
+                                    th { "Team" }
+                                    th {
+                                        abbr { title: "Played", "Pld" }
+                                    }
+                                    th {
+                                        abbr { title: "Won", "W" }
+                                    }
+                                    th {
+                                        abbr { title: "Drawn", "D" }
+                                    }
+                                    th {
+                                        abbr { title: "Lost", "L" }
+                                    }
+                                    th {
+                                        abbr { title: "Goals for", "GF" }
+                                    }
+                                    th {
+                                        abbr { title: "Goals against", "GA" }
+                                    }
+                                    th {
+                                        abbr { title: "Goal difference", "GD" }
+                                    }
+                                    th {
+                                        abbr { title: "Points", "Pts" }
+                                    }
+                                    th { "Qualification or relegation" }
+                                }
+                            }
+                            tfoot {
+                                tr {
+                                    th {
+                                        abbr { title: "Position", "Pos" }
+                                    }
+                                    th { "Team" }
+                                    th {
+                                        abbr { title: "Played", "Pld" }
+                                    }
+                                    th {
+                                        abbr { title: "Won", "W" }
+                                    }
+                                    th {
+                                        abbr { title: "Drawn", "D" }
+                                    }
+                                    th {
+                                        abbr { title: "Lost", "L" }
+                                    }
+                                    th {
+                                        abbr { title: "Goals for", "GF" }
+                                    }
+                                    th {
+                                        abbr { title: "Goals against", "GA" }
+                                    }
+                                    th {
+                                        abbr { title: "Goal difference", "GD" }
+                                    }
+                                    th {
+                                        abbr { title: "Points", "Pts" }
+                                    }
+                                    th { "Qualification or relegation" }
+                                }
+                            }
+                            tbody {
+                                tr {
+                                    th { "1" }
+                                    td {
+                                        a {
+                                            title: "Leicester City F.C.",
+                                            href: "https://en.wikipedia.org/wiki/Leicester_City_F.C.",
+                                            "Leicester City"
+                                        }
+                                        strong { "(C)" }
+                                    }
+                                    td { "38" }
+                                    td { "23" }
+                                    td { "12" }
+                                    td { "3" }
+                                    td { "68" }
+                                    td { "36" }
+                                    td { "+32" }
+                                    td { "81" }
+                                    td {
+                                        "\n                    Qualification for the\n                    "
+                                        a {
+                                            href: "https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Group_stage",
+                                            title: "2016–17 UEFA Champions League",
+                                            "Champions League group stage"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    // }
                 }
             }
-
-            // Link {
-            //     to: Route::Blog {
-            //         id: count()
-            //     },
-            //     "Go to blog"
-            // }
-            //
-            // div {
-            //     h1 { "High-Five counter: {count}" }
-            //     button { class:"button is-warning", onclick: move |_| count += 1, "Up high!" }
-            //     button { onclick: move |_| count -= 1, "Down low!" }
-            // }
-
     }
 
 }

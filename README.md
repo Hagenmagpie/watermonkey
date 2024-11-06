@@ -1,6 +1,7 @@
 # Development Manual
 
 
+
 https://dioxuslabs.com/
 
 ## start server
@@ -28,7 +29,12 @@ https://www.remove.bg/zh/upload
 ## style 
 https://bulma.io/
 
+参考样例
+https://bulma.io/documentation/components/navbar/
 
 ## 转换html 
 dx translate --file ./html/navbar.html
 
+## database
+
+https://surrealdb.com/

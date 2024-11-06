@@ -7,22 +7,11 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81d9ceee-1b02-4b23-aa16-60cdd1a74568" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="81d9ceee-1b02-4b23-aa16-60cdd1a74568" name="更改" comment="更新图标">
+      <change afterPath="$PROJECT_DIR$/assets/website.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/navbar2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dioxus.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Dioxus.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/bulma.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bulma.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/header.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/header.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/watermonkey.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/watermonkey.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Hagenmagpie"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Hagenmagpie/watermonkey.git",
+    "accountId": "cf65af78-8344-42be-b037-bb6e6d145de0"
+  }
+}]]></component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="g309g4ny" />
   </component>
@@ -121,11 +122,51 @@
       <updated>1730510577941</updated>
       <workItem from="1730510579058" duration="18111000" />
       <workItem from="1730818829263" duration="1220000" />
-      <workItem from="1730906650344" duration="1068000" />
+      <workItem from="1730906650344" duration="6071000" />
     </task>
+    <task id="LOCAL-00001" summary="更新图标">
+      <option name="closed" value="true" />
+      <created>1730908539938</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730908539938</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="GitHub.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新图标" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新图标" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/main.rs</url>
+          <line>108</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/main.rs</url>
+          <line>107</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
