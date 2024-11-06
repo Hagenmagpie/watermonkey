@@ -42,8 +42,8 @@ fn Home() -> Element {
             nav { class: "navbar is-transparent",
                 div { class: "navbar-brand",
                     a { href: "https://www.watermonkey.org", class: "navbar-item",
-                        img { src: "logo.jpg" }
-                        b { "无支祁" }
+                        img { src: "logo.png" }
+                        b { "WATERMONKEY" }
                     }
                     div {
                         "data-target": "navbarExampleTransparentExample",
@@ -56,52 +56,7 @@ fn Home() -> Element {
                 }
                 div { class: "navbar-menu", id: "navbarExampleTransparentExample",
                     div { class: "navbar-start",
-                        a { href: "https://bulma.io/", class: "navbar-item", " Home " }
-                        div { class: "navbar-item has-dropdown is-active",
-                            a {
-                                href: "https://bulma.io/documentation/overview/start/",
-                                class: "navbar-link",
-                                " Docs "
-                            }
-                            div { class: "navbar-dropdown is-boxed",
-                                a {
-                                    href: "https://bulma.io/documentation/overview/start/",
-                                    class: "navbar-item",
-                                    " Overview "
-                                }
-                                a {
-                                    href: "https://bulma.io/documentation/overview/modifiers/",
-                                    class: "navbar-item",
-                                    " Modifiers "
-                                }
-                                hr { class: "navbar-divider" }
-                                a {
-                                    href: "https://bulma.io/documentation/columns/basics/",
-                                    class: "navbar-item",
-                                    " Columns "
-                                }
-                                a {
-                                    href: "https://bulma.io/documentation/layout/container/",
-                                    class: "navbar-item",
-                                    " Layout "
-                                }
-                                a {
-                                    href: "https://bulma.io/documentation/form/general/",
-                                    class: "navbar-item",
-                                    " Form "
-                                }
-                                a {
-                                    href: "https://bulma.io/documentation/elements/box/",
-                                    class: "navbar-item",
-                                    " Elements "
-                                }
-                                a {
-                                    href: "https://bulma.io/documentation/components/breadcrumb/",
-                                    class: "navbar-item",
-                                    " Components "
-                                }
-                            }
-                        }
+                        a { href: "https://www.watermonkey.org/", class: "navbar-item", " Home " }
                     }
                     div { class: "navbar-end",
                         div { class: "navbar-item",
@@ -117,7 +72,7 @@ fn Home() -> Element {
                                         span { class: "icon",
                                             i { class: "fab fa-twitter" }
                                         }
-                                        span { " Tweet " }
+                                        span { " GITHUB " }
                                     }
                                 }
                                 p { class: "control",
@@ -127,7 +82,7 @@ fn Home() -> Element {
                                         span { class: "icon",
                                             i { class: "fas fa-download" }
                                         }
-                                        span { "Download" }
+                                        span { "DOWNLOAD" }
                                     }
                                 }
                             }
@@ -136,18 +91,18 @@ fn Home() -> Element {
                 }
             }
 
-            Link {
-                to: Route::Blog {
-                    id: count()
-                },
-                "Go to blog"
-            }
-
-            div {
-                h1 { "High-Five counter: {count}" }
-                button { class:"button is-warning", onclick: move |_| count += 1, "Up high!" }
-                button { onclick: move |_| count -= 1, "Down low!" }
-            }
+            // Link {
+            //     to: Route::Blog {
+            //         id: count()
+            //     },
+            //     "Go to blog"
+            // }
+            //
+            // div {
+            //     h1 { "High-Five counter: {count}" }
+            //     button { class:"button is-warning", onclick: move |_| count += 1, "Up high!" }
+            //     button { onclick: move |_| count -= 1, "Down low!" }
+            // }
 
     }
 

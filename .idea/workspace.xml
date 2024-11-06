@@ -7,7 +7,24 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81d9ceee-1b02-4b23-aa16-60cdd1a74568" name="更改" comment="" />
+    <list default="true" id="81d9ceee-1b02-4b23-aa16-60cdd1a74568" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dioxus.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Dioxus.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bulma.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bulma.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/header.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/header.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/watermonkey.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/watermonkey.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,6 +120,8 @@
       <option name="presentableId" value="Default" />
       <updated>1730510577941</updated>
       <workItem from="1730510579058" duration="18111000" />
+      <workItem from="1730818829263" duration="1220000" />
+      <workItem from="1730906650344" duration="1068000" />
     </task>
     <servers />
   </component>
